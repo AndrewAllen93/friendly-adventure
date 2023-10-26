@@ -1,0 +1,152 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: url("https://cfcdn-cf.hellodr.tech/wp-content/uploads/2023/05/219-Dr-Tech-blog-images.png") no-repeat center center fixed;
+    background-size: cover; /* Make the background image cover the entire background */
+    color: #fff;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0); /* Make the header completely transparent */
+    color: rgba(0, 0, 0, 0); /* Text color also fully transparent */
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #00b4e6;
+  }
+  
+  header h1 a {
+    font-size: 36px;
+    text-decoration: none;
+    color: #00b4e6;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #00b4e6; /* Text color fully transparent */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #00b4e6;
+  }
+  
+  main {
+    background-color: rgba(0, 0, 0, 0.8); /* Add transparency to the main background */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #featured-articles {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #121212;
+  }
+  
+  #content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  #sidebar {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #121212;
+  }
+  
+  article {
+    background-color: rgba(0, 0, 0, 0.8); /* Add transparency to article backgrounds */
+    color: rgba(0, 0, 0, 0); /* Text color fully transparent */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    background-color: rgba(0, 0, 0, 0.8); /* Add transparency to sidebar backgrounds */
+    color: rgba(0, 0, 0, 0); /* Text color fully transparent */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Add transparency to the footer background */
+    color: rgba(0, 0, 0, 0); /* Text color fully transparent */
+    padding: 10px 0;
+    border-top: 3px solid #00b4e6;
+  }
+  
+  /* Add more CSS styles for your blog content as needed */
+  
+  /* Styles for the auth container */
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styles for auth boxes */
+  .auth-box {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    width: 300px;
+    height: 300px; /* Equal width and height */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .auth-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .auth-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00b4e6;
+    border-radius: 5px;
+  }
+  
+  .auth-box button {
+    background-color: #00b4e6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-box button:hover {
+    background-color: #0094c0;
+  }
+  
